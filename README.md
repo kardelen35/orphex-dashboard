@@ -2,8 +2,8 @@
 
 A Vue 3 application for managing and visualizing support requests with real-time filtering, sorting, and data persistence.
 
-![Light Mode](./screenshot/light-mode.png)
-![Dark Mode](./screenshot/dark-mode.png)
+![Light Mode](./public/screenshot/light-mode.png)
+![Dark Mode](./public/screenshot/dark-mode.png)
 
 ## 🚀 Features
 
