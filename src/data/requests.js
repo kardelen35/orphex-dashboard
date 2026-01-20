@@ -1,0 +1,222 @@
+export const requestsData = [
+  {
+    id: "REQ-001",
+    title: "Cannot login to dashboard",
+    customer: "Acme Corp",
+    status: "New",
+    priority: "High",
+    createdAt: "2025-01-10T09:30:00Z",
+    updatedAt: "2025-01-10T09:30:00Z",
+    lastCommentAt: null,
+    tags: ["authentication", "urgent"]
+  },
+  {
+    id: "REQ-002",
+    title: "Export feature not working",
+    customer: "TechStart Inc",
+    status: "In Progress",
+    priority: "Medium",
+    createdAt: "2025-01-15T14:20:00Z",
+    updatedAt: "2025-01-18T10:15:00Z",
+    lastCommentAt: "2025-01-17T16:45:00Z",
+    tags: ["export", "bug"]
+  },
+  {
+    id: "REQ-003",
+    title: "Need help with API integration",
+    customer: "DevFlow Systems",
+    status: "Waiting on Customer",
+    priority: "Low",
+    createdAt: "2025-01-12T11:00:00Z",
+    updatedAt: "2025-01-16T09:20:00Z",
+    lastCommentAt: "2025-01-16T09:20:00Z",
+    tags: ["api", "integration"]
+  },
+  {
+    id: "REQ-004",
+    title: "Dashboard loading very slow",
+    customer: "Global Analytics",
+    status: "In Progress",
+    priority: "High",
+    createdAt: "2025-01-08T08:15:00Z",
+    updatedAt: "2025-01-19T11:30:00Z",
+    lastCommentAt: "2025-01-19T11:30:00Z",
+    tags: ["performance", "dashboard"]
+  },
+  {
+    id: "REQ-005",
+    title: "Request for custom report template",
+    customer: "DataViz Pro",
+    status: "New",
+    priority: "Low",
+    createdAt: "2025-01-18T13:45:00Z",
+    updatedAt: "2025-01-18T13:45:00Z",
+    lastCommentAt: null,
+    tags: ["feature-request", "reports"]
+  },
+  {
+    id: "REQ-006",
+    title: "User permissions not updating",
+    customer: "SecureNet Ltd",
+    status: "Done",
+    priority: "Medium",
+    createdAt: "2025-01-05T10:00:00Z",
+    updatedAt: "2025-01-14T15:30:00Z",
+    lastCommentAt: "2025-01-14T15:30:00Z",
+    tags: ["permissions", "access-control"]
+  },
+  {
+    id: "REQ-007",
+    title: "Email notifications not being sent",
+    customer: "CloudMail Services",
+    status: "New",
+    priority: "High",
+    createdAt: "2025-01-17T07:20:00Z",
+    updatedAt: "2025-01-17T07:20:00Z",
+    lastCommentAt: null,
+    tags: ["notifications", "email"]
+  },
+  {
+    id: "REQ-008",
+    title: "Mobile app crashes on startup",
+    customer: "MobileTech Solutions",
+    status: "In Progress",
+    priority: "High",
+    createdAt: "2025-01-11T16:30:00Z",
+    updatedAt: "2025-01-18T14:00:00Z",
+    lastCommentAt: "2025-01-15T10:20:00Z",
+    tags: ["mobile", "crash"]
+  },
+  {
+    id: "REQ-009",
+    title: "Documentation outdated for API v2",
+    customer: "Developer Hub",
+    status: "Waiting on Customer",
+    priority: "Low",
+    createdAt: "2025-01-06T12:00:00Z",
+    updatedAt: "2025-01-10T09:15:00Z",
+    lastCommentAt: "2025-01-09T14:30:00Z",
+    tags: ["documentation", "api"]
+  },
+  {
+    id: "REQ-010",
+    title: "Billing discrepancy in invoice",
+    customer: "Finance Corp",
+    status: "New",
+    priority: "Medium",
+    createdAt: "2025-01-19T10:00:00Z",
+    updatedAt: "2025-01-19T10:00:00Z",
+    lastCommentAt: null,
+    tags: ["billing", "invoice"]
+  },
+  {
+    id: "REQ-011",
+    title: "Data export contains incorrect values",
+    customer: "Analytics Plus",
+    status: "In Progress",
+    priority: "Medium",
+    createdAt: "2025-01-13T09:45:00Z",
+    updatedAt: "2025-01-18T16:20:00Z",
+    lastCommentAt: "2025-01-18T16:20:00Z",
+    tags: ["data", "export"]
+  },
+  {
+    id: "REQ-012",
+    title: "Unable to delete old projects",
+    customer: "Project Manager Pro",
+    status: "Done",
+    priority: "Low",
+    createdAt: "2025-01-04T11:30:00Z",
+    updatedAt: "2025-01-12T13:45:00Z",
+    lastCommentAt: "2025-01-12T13:45:00Z",
+    tags: ["projects", "delete"]
+  },
+  {
+    id: "REQ-013",
+    title: "Integration with Slack not working",
+    customer: "TeamCollab Inc",
+    status: "New",
+    priority: "Medium",
+    createdAt: "2025-01-16T15:10:00Z",
+    updatedAt: "2025-01-16T15:10:00Z",
+    lastCommentAt: null,
+    tags: ["integration", "slack"]
+  },
+  {
+    id: "REQ-014",
+    title: "Server timeout errors during peak hours",
+    customer: "High Traffic Networks",
+    status: "In Progress",
+    priority: "High",
+    createdAt: "2025-01-09T06:00:00Z",
+    updatedAt: "2025-01-19T08:30:00Z",
+    lastCommentAt: "2025-01-19T08:30:00Z",
+    tags: ["performance", "server"]
+  },
+  {
+    id: "REQ-015",
+    title: "Need training session for new features",
+    customer: "Enterprise Training Co",
+    status: "Waiting on Customer",
+    priority: "Low",
+    createdAt: "2025-01-14T10:30:00Z",
+    updatedAt: "2025-01-17T14:00:00Z",
+    lastCommentAt: "2025-01-17T14:00:00Z",
+    tags: ["training", "onboarding"]
+  },
+  {
+    id: "REQ-016",
+    title: "Dark mode not applying to all pages",
+    customer: "UI Design Studio",
+    status: "New",
+    priority: "Low",
+    createdAt: "2025-01-18T16:20:00Z",
+    updatedAt: "2025-01-18T16:20:00Z",
+    lastCommentAt: null,
+    tags: ["ui", "theme"]
+  },
+  {
+    id: "REQ-017",
+    title: "Database backup failed last night",
+    customer: "Data Security Systems",
+    status: "In Progress",
+    priority: "High",
+    createdAt: "2025-01-19T02:00:00Z",
+    updatedAt: "2025-01-19T07:45:00Z",
+    lastCommentAt: "2025-01-19T07:45:00Z",
+    tags: ["database", "backup"]
+  },
+  {
+    id: "REQ-018",
+    title: "Chart colors not accessible for colorblind",
+    customer: "Accessibility First",
+    status: "New",
+    priority: "Medium",
+    createdAt: "2025-01-15T11:15:00Z",
+    updatedAt: "2025-01-15T11:15:00Z",
+    lastCommentAt: null,
+    tags: ["accessibility", "charts"]
+  },
+  {
+    id: "REQ-019",
+    title: "Upgrade plan to Enterprise tier",
+    customer: "Growing Business Inc",
+    status: "Done",
+    priority: "Medium",
+    createdAt: "2025-01-07T13:00:00Z",
+    updatedAt: "2025-01-16T10:30:00Z",
+    lastCommentAt: "2025-01-16T10:30:00Z",
+    tags: ["upgrade", "sales"]
+  },
+  {
+    id: "REQ-020",
+    title: "Search function returning no results",
+    customer: "SearchTech Solutions",
+    status: "New",
+    priority: "High",
+    createdAt: "2025-01-03T14:45:00Z",
+    updatedAt: "2025-01-03T14:45:00Z",
+    lastCommentAt: null,
+    tags: ["search", "bug"]
+  }
+]
