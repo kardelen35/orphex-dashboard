@@ -4,7 +4,6 @@ A Vue 3 application for managing and visualizing support requests with real-time
 
 
 
-## 🚀 Features
 
 ### Core Functionality
 - ✅ **Requests List** 
